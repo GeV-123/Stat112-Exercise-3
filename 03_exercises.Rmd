@@ -173,8 +173,7 @@ Two data tables are available:
 Here is the code to read in the data. We do this a little differently than usual, which is why it is included here rather than at the top of this file. To avoid repeatedly re-reading the files, start the data import chunk with `{r cache = TRUE}` rather than the usual `{r}`.
 
 ```{r cache=TRUE}
-data_site <- 
-  "https://www.macalester.edu/~dshuman1/data/112/2014-Q4-Trips-History-Data-Small.rds" 
+ 
 #Trips <- readRDS(gzcon(url(data_site)))
 # I have an error message with the above code that says "cannot open connection". I downloaded it to my laptop; and the code doesn't seem to recognize gzcon function. I used readRDS directly instead.
 
